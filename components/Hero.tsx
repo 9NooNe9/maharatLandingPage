@@ -110,7 +110,7 @@ const Hero = (props: Props) => {
 
 				<div className="pt-5">
 					<Link href={"#about"}>
-						<button className="heroButton">در باره ما</button>
+						<button className="heroButton">درباره ما</button>
 					</Link>
 					<Link href={"#experience"}>
 						<button className="heroButton">محصولات</button>

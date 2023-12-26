@@ -20,7 +20,7 @@ const About = (props: Props) => {
 			className="flex flex-col relative h-screen text-center md:text-left 
     md:flex-row max-w-7xl px-10 justify-evenly mx-auto items-center overflow-x-hidden"
 		>
-			<h3 className="absolute top-24 uppercase tracking-[10px] text-gray-500 text-2xl">
+			<h3 className="absolute top-16 uppercase tracking-[8px] text-gray-500 text-sm">
 				درباره ما
 			</h3>
 
@@ -38,7 +38,7 @@ const About = (props: Props) => {
 				}}
 				viewport={{ once: true }}
 				src={pic.src}
-				className="-mb-20 mt-20 md:mb-0 md:mt-0 flex-shrink-0 w-56 h-56 rounded-full
+				className="-mb-20 mt-12 md:mb-0 md:mt-0 flex-shrink-0 w-40 h-40 rounded-full
          object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[400px] xl:h-[400px]"
 			/>
 
@@ -55,7 +55,7 @@ const About = (props: Props) => {
 					duration: 1.5,
 				}}
 				viewport={{ once: true }}
-				className="space-y-10 px-0 md:px-10 text-center md:text-right"
+				className="space-y-10 mt-8 px-0 md:px-10 text-center md:text-right"
 			>
 				<h4 className="text-2xl">
 					کمی درباره{" "}
