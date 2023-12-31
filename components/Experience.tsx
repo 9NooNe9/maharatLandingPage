@@ -55,8 +55,8 @@ const Experience = (props: Props) => {
 			<div className="w-full mt-10 md:mt-28 flex space-x-5 overflow-x-scroll p-5 snap-x snap-mandatory scroll-smooth">
 				<ExperienceCard infos={array.bosh} />
 				<ExperienceCard infos={array.sit} />
-				<ExperienceCard infos={array.bosh} />
-				<ExperienceCard infos={array.sit} />
+				{/* <ExperienceCard infos={array.bosh} />
+				<ExperienceCard infos={array.sit} /> */}
 			</div>
 		</motion.div>
 	);

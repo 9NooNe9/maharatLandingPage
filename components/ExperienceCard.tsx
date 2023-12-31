@@ -30,7 +30,21 @@ const ExperienceCard = (props: Props) => {
 				src={bush.src}
 				alt="bosh"
 			/>
-			<div className="px-0 md:px-10">
+			<motion.div
+				initial={{
+					y: 100,
+					opacity: 0,
+				}}
+				transition={{
+					duration: 1.5,
+				}}
+				whileInView={{
+					opacity: 1,
+					y: 0,
+				}}
+				viewport={{ once: true }}
+				className="px-0 md:px-10"
+			>
 				<h4 className="text-2xl font-light">{props.infos.title}</h4>
 				<p className="font-thin text-[0.6rem] md:text-sm mt-1 pl-5">
 					{props.infos.description}
@@ -40,7 +54,7 @@ const ExperienceCard = (props: Props) => {
 						<li key={atribute}>{atribute}</li>
 					))}
 				</ul>
-			</div>
+			</motion.div>
 		</article>
 	);
 };

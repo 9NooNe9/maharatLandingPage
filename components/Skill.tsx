@@ -12,7 +12,7 @@ const Skill = ({ directionLeft }: Props) => {
 		<div className="group relative flex cursor-pointer">
 			<motion.img
 				initial={{
-					x: directionLeft ? 200 : -200,
+					x: 200,
 					opacity: 1,
 				}}
 				transition={{
@@ -24,8 +24,7 @@ const Skill = ({ directionLeft }: Props) => {
 				}}
 				src={logo.src}
 				className="rounded-full border border-gray-500 bg-white object-cover 
-        w-12 h-12 xl:w-24 xl:h-24 filter group-hover:grayscale
-        transition duration-300 ease-in-out"
+        w-12 h-12 xl:w-24 xl:h-24 filter"
 			/>
 		</div>
 	);

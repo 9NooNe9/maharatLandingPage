@@ -7,7 +7,7 @@ type Props = {};
 
 const Header = ({}: Props) => {
 	return (
-		<header className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center overflow-hidden">
+		<header className="sticky top-0 px-5 md:py-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center overflow-hidden">
 			<motion.div
 				initial={{
 					x: 500,
@@ -24,28 +24,31 @@ const Header = ({}: Props) => {
 				}}
 				className="flex flex-row items-center"
 			>
-				{/* social icons */}
 				<SocialIcon
 					url="https://instagram.com/maharat_1983"
 					fgColor="gray"
 					bgColor="transparent"
+					className="scale-75 md:scale-100"
 				/>
 				<SocialIcon
 					url="https://ir.linkedin.com/in/iman-farahani-7193b1202?trk=people-guest_people_search-card"
 					fgColor="gray"
 					bgColor="transparent"
+					className="scale-75 md:scale-100"
 				/>
 				<SocialIcon
 					network="whatsapp"
 					url="https://https://wa.me/+989123670680"
 					fgColor="gray"
 					bgColor="transparent"
+					className="scale-75 md:scale-100"
 				/>
 				<SocialIcon
 					network="email"
 					url="mailto:maharat1362@yahoo.com"
 					fgColor="gray"
 					bgColor="transparent"
+					className="scale-75 md:scale-100"
 				/>
 			</motion.div>
 
@@ -70,7 +73,7 @@ const Header = ({}: Props) => {
 					href="tel:08634131563"
 				>
 					<svg
-						className="ml-3 ltr:mr-3 ltr:ml-0 w-7 h-7 mt-2 md:mt-0 text-gray-400"
+						className="ml-3 ltr:mr-3 ltr:ml-0 w-7 h-7 mt-2 md:mt-0 text-gray-400 scale-75 md:scale-100"
 						xmlns="http://www.w3.org/2000/svg"
 						width="20"
 						height="20"

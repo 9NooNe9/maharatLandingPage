@@ -4,6 +4,7 @@ import Hero from "../../components/Hero";
 import About from "../../components/About";
 import Experience from "../../components/Experience";
 import Skills from "../../components/Skills";
+import Contact from "../../components/Contact";
 
 const Home: NextPage = () => {
 	return (
@@ -22,12 +23,13 @@ const Home: NextPage = () => {
 				<Experience />
 			</section>
 
-			<section id="skills" className="snap-center">
+			{/* <section id="skills" className="snap-center">
 				<Skills />
-			</section>
-			{/* Projects */}
+			</section> */}
 
-			{/* contact us */}
+			<section id="contact" className="snap-start">
+				<Contact />
+			</section>
 		</main>
 	);
 };
