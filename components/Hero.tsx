@@ -118,7 +118,7 @@ const Hero = (props: Props) => {
 					<Link href={"#skills"}>
 						<button className="heroButton">گواهی نامه ها</button>
 					</Link>
-					<Link href={"#projects"}>
+					<Link href={"#contact"}>
 						<button className="heroButton">ارتباط با ما</button>
 					</Link>
 				</div>

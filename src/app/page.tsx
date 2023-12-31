@@ -3,12 +3,16 @@ import Header from "../../components/Header";
 import Hero from "../../components/Hero";
 import About from "../../components/About";
 import Experience from "../../components/Experience";
-import Skills from "../../components/Skills";
+// import Skills from "../../components/Skills";
 import Contact from "../../components/Contact";
 
 const Home: NextPage = () => {
 	return (
-		<main className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll scroll-smooth z-0">
+		<main
+			className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory 
+		overflow-y-scroll overflow-x-hidden scroll-smooth z-0 scrollbar-none md:scrollbar-thin scrollbar-track-gray-400/20 
+		scrollbar-thumb-[#f7ab0a]/80"
+		>
 			<Header />
 
 			<section id="hero" className="snap-start">

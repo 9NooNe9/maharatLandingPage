@@ -3,11 +3,9 @@ import React from "react";
 import { motion } from "framer-motion";
 import logo from "../public/images/logo-fanavarn.png";
 
-type Props = {
-	directionLeft?: boolean;
-};
+type Props = {};
 
-const Skill = ({ directionLeft }: Props) => {
+const Skill = ({}: Props) => {
 	return (
 		<div className="group relative flex cursor-pointer">
 			<motion.img
